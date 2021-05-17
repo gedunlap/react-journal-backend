@@ -23,6 +23,7 @@ const morgan = require("morgan")
 mongoose.connect(MONGODB_URL, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
+    useFindAndModify: false,
 });
 
 mongoose.connection
