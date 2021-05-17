@@ -36,10 +36,10 @@ mongoose.connection
 // MODELS
 ////////////////////////////////
 const JournalSchema = new mongoose.Schema({
-    Name: String,
-    Title: String,
-    Date: String,
-    Entry: String,
+    name: String,
+    title: String,
+    date: String,
+    entry: String,
 })
 
 const Journal = mongoose.model("Journal", JournalSchema)
