@@ -37,6 +37,7 @@ mongoose.connection
 ////////////////////////////////
 const JournalSchema = new mongoose.Schema({
     Name: String,
+    Title: String,
     Date: String,
     Entry: String,
 })
